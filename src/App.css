@@ -1,5 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  .container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    .com2{
+      margin-top: 20px;
+      padding: 10px;
+      width: 250px;
+      border: solid 4px  rgb(13, 122, 122);
+      /* height: fit-content; */
+    }
+  }
 }
 
 .App-logo {
